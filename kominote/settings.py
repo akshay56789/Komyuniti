@@ -33,7 +33,7 @@ LOCALE_PATHS = [
     BASE_DIR / 'locale/',
 ]
 
-ALLOWED_HOSTS = ['192.168.0.198','127.0.0.1','192.168.0.197', '192.168.0.239', '192.168.230.168']
+ALLOWED_HOSTS = ['.vercel.app']
 
 LANGUAGES = [
     ("en", _("English")),
